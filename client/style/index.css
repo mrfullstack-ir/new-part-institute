@@ -16,6 +16,8 @@ header {
     height: 100%;
     z-index: 2;
     background: rgb(0, 0, 0);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 1)), to(rgba(37, 0, 50, 0.3)));
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 1) 0%, rgba(37, 0, 50, 0.3) 100%);
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(37, 0, 50, 0.3) 100%);
 }
 
@@ -24,6 +26,8 @@ header {
     width: 100%;
     height: 100%;
     z-index: 3;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.2)));
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 100%);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 100%);
     background-blend-mode: normal, color, color;
 }
@@ -32,8 +36,10 @@ header video {
     width: 100%;
     height: 100%;
     position: absolute;
+    -o-object-fit: cover;
     object-fit: cover;
     z-index: 0;
+    -webkit-filter: sepia(1) hue-rotate(240deg) brightness(.9);
     filter: sepia(1) hue-rotate(240deg) brightness(.9)
 }
 
@@ -69,7 +75,12 @@ header video {
 }
 
 .header-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     position: absolute;
     left: 3%;
@@ -96,9 +107,15 @@ nav {
 }
 
 .nav-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
 }
 
@@ -108,9 +125,18 @@ nav {
 }
 
 .nav-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -120,8 +146,14 @@ nav {
 }
 
 .header-search-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin-left: 120px;
     cursor: pointer;
@@ -131,14 +163,23 @@ nav {
     cursor: pointer;
     font-size: 14px;
     background: rgba(255, 255, 255, 0.20);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     padding: 8px;
     margin-left: 18px;
 }
 
 .header-quick-access {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: end
 }
 
@@ -150,6 +191,8 @@ nav {
     cursor: pointer;
     background-color: #8915B2;
     padding: 8px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
 }
 
@@ -158,7 +201,11 @@ nav {
 }
 
 .nav-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: end;
 }
 
@@ -187,8 +234,14 @@ START LAST NEWS
 }
 
 .last-news-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 24px;
 }
@@ -229,6 +282,7 @@ START LAST NEWS
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
+    -webkit-filter: sepia(1) hue-rotate(240deg) brightness(.5);
     filter: sepia(1) hue-rotate(240deg) brightness(.5);
 }
 
@@ -250,6 +304,7 @@ START LAST NEWS
     overflow: hidden;
     color: #fff;
     text-align: right;
+    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     font-size: 16px;
     padding-bottom: 8px;
@@ -263,7 +318,11 @@ START LAST NEWS
 }
 
 .last-news-item-tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
     gap: 8px;
 }
