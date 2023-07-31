@@ -262,7 +262,7 @@ START LAST NEWS
     color: #8A15B2;
     font-size: 20px;
     text-align: end;
-    width: 14%;
+    width: 16%;
     padding-left: 2.5%;
 }
 
@@ -332,4 +332,87 @@ START LAST NEWS
     padding: 4px 8px;
     color: #fff;
     border: 1px solid #ffffff;
+}
+
+/*
+===============
+START INTRODUCTION
+===============
+*/
+
+.introduction-container {
+    padding-right: 7%;
+    padding-left: 7%;
+    margin-bottom: 100px;
+}
+
+.introduction-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.introduction-title-line h2 {
+    display: inline-block;
+    font-size: 24px;
+    width: 100%;
+    padding-right: 1.5%;
+}
+
+.introduction-title hr {
+    width: 90%;
+    border: 1px dashed #131313;
+    float: left;
+    margin-left: 2.5%;
+}
+
+.introduction-title-line {
+    width: 50%;
+}
+
+.introduction-content img {
+    width: 95%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.introduction-description {
+    width: 90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.introduction-description p {
+    text-align: justify;
+    color: #131313;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.introduction-description a {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 3px 8px;
+    background-color: #8A15B2;
+}
+
+/*
+==============
+START CATEGORY
+==============
+*/
+
+.test {
+    background-color: #FDE7FF;
 }
