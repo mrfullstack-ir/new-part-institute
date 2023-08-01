@@ -1,0 +1,139 @@
+@media (max-width: 2000px) {
+    .category-right-button {
+        right: 10%;
+    }
+
+    .category-left-button {
+        left: 10%;
+    }
+}
+
+@media (max-width: 1800px) {
+    /*NOTHING*/
+}
+
+@media (max-width: 1600px) {
+    .last-news-container, .introduction-container, .category-list, .favorite-posts-container, .media-container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .footer-container {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .nav-container {
+        justify-content: space-between;
+    }
+
+    .introduction-content img {
+        width: 90%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .introduction-description p {
+        width: 98%;
+    }
+
+    .category-right-button {
+        right: 2%;
+    }
+
+    .category-left-button {
+        left: 2%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .nav-container, .header-register, .header-multi-lang, .introduction-title-line {
+        display: none;
+    }
+
+    .header-mobile-logo {
+        display: block;
+    }
+
+    .header-content h1, .header-content p {
+        padding-right: 10%;
+    }
+
+    .header-social {
+        left: 5%;
+    }
+
+    .media-title a {
+        width: 15% !important;
+    }
+
+    .media-title h2 {
+        width: 6% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header-search-icon {
+        margin-left: 0;
+    }
+
+    .header-content p {
+        padding-top: 0;
+    }
+
+    .header-content h1 {
+        font-size: 65px;
+    }
+
+    .last-news-title hr {
+        display: none;
+    }
+
+    .introduction-description p {
+        font-size: 16px;
+    }
+
+    .introduction-content img {
+        width: 95%;
+    }
+
+    .category-content h2, .main-favorite-posts .last-news-item-content p {
+        font-size: 22px;
+    }
+
+    .category-content h3 {
+        font-size: 14px;
+    }
+
+    .main-favorite-posts .last-news-item-image, .media-item {
+        margin-right: 2%;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-logo, .header-search-icon {
+        display: none;
+    }
+
+    .last-news-title {
+        justify-content: space-around;
+    }
+
+    .last-news-title h2, .last-news-title a {
+        width: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+    section {
+        background-color: yellowgreen;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        background-color: yellow;
+    }
+}
