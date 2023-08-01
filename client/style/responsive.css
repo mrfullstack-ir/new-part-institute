@@ -24,6 +24,8 @@
     }
 
     .nav-container {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
     }
 
@@ -117,23 +119,97 @@
     }
 
     .last-news-title {
+        -ms-flex-pack: distribute;
         justify-content: space-around;
     }
 
-    .last-news-title h2, .last-news-title a {
-        width: auto;
+    .last-news-title h2, .last-news-title a, .favorite-posts-title h2, .favorite-posts-title a {
+        width: auto !important;
     }
 
+    .last-news-item, .media-item {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .favorite-posts-item {
+        margin-bottom: 0 !important;
+    }
+
+    .last-news-item-image, .media-image {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .last-news-item-content {
+        bottom: 10%;
+        padding-right: 35px;
+    }
+
+    .introduction-description p {
+        margin-top: 20px;
+    }
+
+    .last-news-item:hover .last-news-item-image {
+        background-size: cover;
+    }
+
+    .main-favorite-posts {
+        height: 300px !important;
+        width: 90% !important;
+    }
+
+    .main-favorite-posts .last-news-item-image {
+        width: 100% !important;
+        height: 100% !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footer-logo {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footer-about p {
+        margin-bottom: 25px;
+    }
+
+    .footer-menu {
+        margin-right: 0;
+    }
+
+    .footer-about p, .footer-address p {
+        width: 100%;
+    }
+
+    .footer-address {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .footer-info h6, .footer-info p {
+        text-align: right;
+    }
+
+    .main-favorite-posts .last-news-item-content p {
+        font-size: 16px;
+        padding-left: 0;
+    }
 }
 
+
 @media (max-width: 768px) {
-    section {
-        background-color: yellowgreen;
+    .header-content h1 {
+        font-size: 50px;
     }
 }
 
 @media (max-width: 576px) {
-    section {
-        background-color: yellow;
+    .header-content h1 {
+        font-size: 35px;
+        letter-spacing: 0.2px;
     }
 }
