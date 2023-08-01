@@ -317,6 +317,10 @@ START LAST NEWS
     padding-left: 30px;
 }
 
+.last-news-item-content p {
+    cursor: pointer;
+}
+
 .last-news-item-tags {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -480,3 +484,49 @@ START CATEGORY
 .category-button-inactive img {
     opacity: 0.5;
 }
+
+/*
+====================
+START FAVORITE POSTS
+====================
+*/
+
+.favorite-posts-container {
+    margin-top: 80px;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.favorite-posts-title h2 {
+    width: 18% !important;
+    padding-right: 0 !important;
+}
+
+.favorite-posts-item {
+    margin-bottom: 50px !important;
+}
+
+.main-favorite-posts {
+    width: 100% !important;
+    height: 90% !important;
+}
+
+.main-favorite-posts .last-news-item-image {
+    width: 95% !important;
+    height: 93.5% !important;
+}
+
+.main-favorite-posts .last-news-item-content {
+    bottom: 12%;
+}
+
+.main-favorite-posts .last-news-item-content p {
+    font-size: 28px;
+    padding-left: 50px;
+}
+
+/*
+===========
+START MEDIA
+===========
+*/
