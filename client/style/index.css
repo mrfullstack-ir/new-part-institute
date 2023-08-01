@@ -262,8 +262,8 @@ START LAST NEWS
     color: #8A15B2;
     font-size: 20px;
     text-align: end;
-    width: 16%;
-    padding-left: 2.5%;
+    width: 15%;
+    padding-left: 1.5%;
 }
 
 .last-news-item {
@@ -276,7 +276,7 @@ START LAST NEWS
 
 .last-news-item-image {
     position: absolute;
-    width: 85%;
+    width: 90%;
     height: 100%;
     background-image: url('../assets/images/lastNews/last-news-1.jpeg');
     background-repeat: no-repeat;
@@ -437,6 +437,9 @@ START CATEGORY
     height: 300px;
     background-color: #E43A63;
     background-image: url("../assets/images/category/Union-1.png");
+    background-repeat: repeat;
+    background-size: auto 100%;
+    background-position: center;
 }
 
 .category-background {
@@ -503,7 +506,7 @@ START FAVORITE POSTS
 }
 
 .favorite-posts-item {
-    margin-bottom: 50px !important;
+    margin-bottom: 30px !important;
 }
 
 .main-favorite-posts {
@@ -513,7 +516,7 @@ START FAVORITE POSTS
 
 .main-favorite-posts .last-news-item-image {
     width: 95% !important;
-    height: 93.5% !important;
+    height: 95.5% !important;
 }
 
 .main-favorite-posts .last-news-item-content {
@@ -529,4 +532,58 @@ START FAVORITE POSTS
 ===========
 START MEDIA
 ===========
+*/
+
+.media-container {
+    margin-top: 30px;
+    padding-right: 7%;
+    padding-left: 7%;
+    margin-bottom: 70px;
+}
+
+.media-title h2 {
+    width: 5% !important;
+    padding-right: 0 !important;
+}
+
+.media-title a {
+    width: 13% !important;
+}
+
+.media-item {
+    width: 95%;
+    height: 350px;
+    color: #ffffff;
+}
+
+.media-image {
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    background-image: url('../assets/images/media/media-sample.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-filter: sepia(1) hue-rotate(240deg) brightness(.5);
+    filter: sepia(1) hue-rotate(240deg) brightness(.5);
+}
+
+.media-container .col-lg-6:last-child .media-item {
+    margin-right: 2%;
+}
+
+.media-play-button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*
+============
+START FOOTER
+============
 */

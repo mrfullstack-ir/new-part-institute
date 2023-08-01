@@ -1,0 +1,16 @@
+<svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 3954">
+<g id="Vector" filter="url(#filter0_b_1_374)">
+<path d="M29 57C44.464 57 57 44.464 57 29C57 13.536 44.464 1 29 1C13.536 1 1 13.536 1 29C1 44.464 13.536 57 29 57Z" stroke="white"/>
+</g>
+<path id="Polygon 30" d="M37.8438 29.4915L23.1069 37.8424V21.1406L37.8438 29.4915Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_1_374" x="-15.5" y="-15.5" width="89" height="89" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="8"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_374"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_374" result="shape"/>
+</filter>
+</defs>
+</svg>
