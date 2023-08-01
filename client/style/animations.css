@@ -1,0 +1,85 @@
+.nav-item a, .header-search-icon, .header-register, .header-multi-lang p, .header-social img, .last-news-item-image,
+.last-news-title a, .introduction-description a, .category-item, .category-content, .media-image, .media-play-button img,
+.footer-menu a, .footer-social img {
+    -webkit-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid #ffffff;
+    font-size: 16px;
+}
+
+.header-search-icon:hover {
+    -webkit-transform: scale(1.2) translateY(-5px);
+    -ms-transform: scale(1.2) translateY(-5px);
+    transform: scale(1.2) translateY(-5px);
+}
+
+.header-register:hover {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    background-color: unset;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.header-multi-lang:hover p {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.header-social img:hover {
+    -webkit-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    transform: translateX(5px);
+}
+
+.last-news-item:hover .last-news-item-image {
+    background-size: auto 110%;
+    background-position: bottom;
+}
+
+.last-news-title a:hover {
+    text-shadow: 0 0 5px rgba(138, 21, 178, 0.3);
+}
+
+.introduction-description a:hover {
+    color: #8915B2;
+    background-color: #ffffff;
+    text-shadow: 0 0 5px rgba(138, 21, 178, 0.3);
+}
+
+.category-item:hover {
+    background-size: auto 102%;
+    background-position: bottom right;
+}
+
+.category-item:hover .category-content {
+    -webkit-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+.media-item:hover .media-image {
+    background-position: bottom;
+}
+
+.media-item:hover .media-play-button img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.footer-menu a:hover {
+    padding-right: 5px;
+}
+
+.footer-social img:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}

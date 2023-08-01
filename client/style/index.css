@@ -429,6 +429,7 @@ START CATEGORY
 }
 
 .category-item {
+    cursor: pointer;
     position: relative;
     width: 85%;
     display: block;
@@ -646,6 +647,7 @@ footer {
 }
 
 .footer-social {
+    cursor: pointer;
     margin-top: 16px;
     display: -webkit-box;
     display: -ms-flexbox;
