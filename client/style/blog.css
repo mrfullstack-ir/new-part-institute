@@ -1,0 +1,118 @@
+/*
+================
+START NAVIGATION
+================
+*/
+
+nav {
+    background-color: #131313;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-logo-icon {
+    margin-left: 10px;
+}
+
+.nav-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+}
+
+.nav-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 75%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.nav-item a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/*
+============
+START HEADER
+============
+*/
+
+.header-container {
+    height: 420px;
+    background-color: #E43A63;
+    background-image: url("../assets/images/category/Union-1.png");
+}
+
+.header-main {
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.header-image {
+    position: relative;
+}
+
+.header-image img {
+    height: 420px;
+    width: 420px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-filter: sepia(1) hue-rotate(300deg) brightness(1);
+    filter: sepia(1) hue-rotate(300deg) brightness(1);
+}
+
+.header-background {
+    top: 0;
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(228, 58, 99, 0.50)), to(rgba(228, 58, 99, 0.50))),
+    -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.30)), to(rgba(0, 0, 0, 0.30)));
+    background: -o-linear-gradient(bottom, rgba(228, 58, 99, 0.50) 0%, rgba(228, 58, 99, 0.50) 100%),
+    -o-linear-gradient(bottom, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background: linear-gradient(0deg, rgba(228, 58, 99, 0.50) 0%, rgba(228, 58, 99, 0.50) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: color, normal, color, normal;
+}
+
+.header-content {
+    margin-right: 15%;
+}
+
+.header-content h3 {
+    color: #FFF;
+    text-align: right;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    whitespace: nowrap;
+    font-size: 30px;
+    padding-bottom: 28px;
+}
+
+.header-content-tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.header-content-tags a {
+    font-size: 10px;
+    padding: 4px 8px;
+    color: #fff;
+    border: 1px solid #ffffff;
+}
