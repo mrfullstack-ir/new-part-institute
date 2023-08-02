@@ -102,13 +102,13 @@
     }
 
     100% {
-        top: 0px;
+        top: 0;
     }
 }
 
 @keyframes nav-bottom-to-top {
     0% {
-        top: 0px;
+        top: 0;
     }
 
     100% {
@@ -118,10 +118,12 @@
 
 .nav-dropdown-animate {
     position: relative;
+    -webkit-animation: nav-top-to-bottom .5s ease;
     animation: nav-top-to-bottom .5s ease;
 }
 
 .nav-back-animate {
     position: relative;
+    -webkit-animation: nav-bottom-to-top .5s ease;
     animation: nav-bottom-to-top .5s ease;
 }
