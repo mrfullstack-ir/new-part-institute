@@ -271,7 +271,7 @@ START WRITE COMMENT
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
 }
 
 .write-comment-title hr {
@@ -347,5 +347,169 @@ START WRITE COMMENT
     font-size: 18px;
     padding: 10px 41px;
     border: unset;
-    margin-bottom: 100px;
+}
+
+/*
+=============
+SHOW COMMENTS
+=============
+*/
+
+.show-comments-container {
+    margin-top: 130px;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.show-comment-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.show-comment-title hr {
+    width: 100%;
+    border: 1px dashed #131313;
+}
+
+.show-comment-title h2 {
+    display: inline-block;
+    font-size: 24px;
+    width: 16%;
+    padding-right: 1.5%;
+}
+
+.show-comments-item {
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.show-comments-user-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.show-comments-user-icon h6, .show-comments-user h5, .show-comments-user p {
+    font-size: 16px;
+    color: #36454E;
+}
+
+.show-comments-user-icon h6 {
+    padding-right: 16px;
+}
+
+.show-comments-user h5 {
+    padding-top: 5px;
+}
+
+.show-comments-user p {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.show-comments-user button {
+    cursor: pointer;
+    color: #8A15B2;
+    font-size: 16px;
+    background-color: unset;
+    border: unset;
+    margin-bottom: 48px;
+}
+
+.show-comments-hr {
+    margin-bottom: 48px;
+}
+
+/*
+============
+START FOOTER
+============
+*/
+
+footer {
+    margin-top: 80px;
+    background-color: #131313;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.footer-container img {
+    padding-bottom: 12px;
+}
+
+.footer-copyright p {
+    padding-top: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-copyright span {
+    font-size: 14px;
+}
+
+.footer-about p, .footer-address p {
+    width: 80%;
+    text-align: justify;
+}
+
+.footer-about p, .footer-menu a, .footer-address h6, .footer-address p, .footer-info h6, .footer-info p {
+    font-size: 12px;
+}
+
+.footer-address h6, .footer-info h6 {
+    padding-bottom: 11px;
+}
+
+.footer-menu a {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 7px;
+}
+
+.footer-info p {
+    margin-bottom: 5px;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-menu {
+    margin-right: 35px;
+}
+
+.footer-social {
+    cursor: pointer;
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 8px;
 }
