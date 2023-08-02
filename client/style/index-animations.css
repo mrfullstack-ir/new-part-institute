@@ -1,6 +1,17 @@
-.nav-item a, .header-search-icon, .header-register, .header-multi-lang p, .header-social img, .last-news-item-image,
-.last-news-title a, .introduction-description a, .category-item, .category-content, .media-image, .media-play-button img,
-.footer-menu a, .footer-social img {
+.nav-item a,
+.header-search-icon,
+.header-register,
+.header-multi-lang p,
+.header-social img,
+.last-news-item-image,
+.last-news-title a,
+.introduction-description a,
+.category-item,
+.category-content,
+.media-image,
+.media-play-button img,
+.footer-menu a,
+.footer-social img {
     -webkit-transition-duration: .3s;
     -o-transition-duration: .3s;
     transition-duration: .3s;
@@ -82,4 +93,35 @@
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
+}
+
+
+@keyframes nav-top-to-bottom {
+    0% {
+        top: -130px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes nav-bottom-to-top {
+    0% {
+        top: 0px;
+    }
+
+    100% {
+        top: -130px;
+    }
+}
+
+.nav-dropdown-animate {
+    position: relative;
+    animation: nav-top-to-bottom .5s ease;
+}
+
+.nav-back-animate {
+    position: relative;
+    animation: nav-bottom-to-top .5s ease;
 }
