@@ -486,6 +486,7 @@ START CATEGORY
     cursor: pointer;
     position: absolute;
     top: 45%;
+    z-index: 99;
 }
 
 .category-right-button {
