@@ -311,7 +311,7 @@ START LAST NEWS
 
 .last-news-item p {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     overflow: hidden;
     color: #fff;
     text-align: right;
@@ -486,7 +486,7 @@ START CATEGORY
     cursor: pointer;
     position: absolute;
     top: 45%;
-    z-index: 99;
+    z-index: 1;
 }
 
 .category-right-button {
