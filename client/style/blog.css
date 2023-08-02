@@ -116,3 +116,136 @@ START HEADER
     color: #fff;
     border: 1px solid #ffffff;
 }
+
+/*
+==================
+START BLOG CONTENT
+==================
+*/
+
+.blog-content {
+    padding: 135px 7% 120px;
+}
+
+.blog-content p {
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+/*
+=================
+START LATEST NEWS
+=================
+*/
+
+.last-news-container {
+    padding-right: 7%;
+    padding-left: 7%;
+    margin-bottom: 100px;
+}
+
+.last-news-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.last-news-title hr {
+    width: 100%;
+    border: 1px dashed #131313;
+}
+
+.last-news-title h2 {
+    display: inline-block;
+    font-size: 24px;
+    width: 16%;
+    padding-right: 1.5%;
+}
+
+.last-news-title a {
+    color: #8A15B2;
+    font-size: 20px;
+    text-align: end;
+    width: 15%;
+    padding-left: 1.5%;
+}
+
+.last-news-item {
+    width: 90%;
+    height: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.last-news-item-image {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-image: url('../assets/images/lastNews/last-news-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    -webkit-filter: sepia(1) hue-rotate(240deg) brightness(.5);
+    filter: sepia(1) hue-rotate(240deg) brightness(.5);
+}
+
+.last-news-container .col-lg-3:first-of-type {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.last-news-item-color {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.last-news-item p {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    color: #fff;
+    text-align: right;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.last-news-item-content {
+    position: absolute;
+    bottom: 24px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.last-news-item-content p {
+    cursor: pointer;
+}
+
+.last-news-item-tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.last-news-item-tags a {
+    font-size: 10px;
+    padding: 4px 8px;
+    color: #fff;
+    border: 1px solid #ffffff;
+}
