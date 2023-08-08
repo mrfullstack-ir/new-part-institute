@@ -131,3 +131,6 @@ dist
 
 
 /client/.idea
+
+/wordpress/plugins/wp-dummy-content-generator
+/wordpress/plugins/index.php
