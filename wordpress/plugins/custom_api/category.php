@@ -1,4 +1,5 @@
 <?php
+
 add_action('rest_api_init', function () {
 	// Replace 'namespace' with your custom namespace
 	register_rest_route('namespace/v1', '/category/', array(

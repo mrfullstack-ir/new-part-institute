@@ -7,3 +7,5 @@ Author: Mahdi Najafzadeh
 */
 
 include "category.php";
+include "post_by_category.php";
+include "test.php";

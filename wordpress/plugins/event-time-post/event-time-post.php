@@ -77,6 +77,3 @@ function enqueue_event_end_time_script() {
 	}
 }
 add_action('admin_enqueue_scripts', 'enqueue_event_end_time_script');
-
-
-include_once "custom_api.php";
